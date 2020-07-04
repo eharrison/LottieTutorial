@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		677CF71E169F0997F1591199 /* libPods-LottieTutorial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2979C95B7D66A25E63E47D06 /* libPods-LottieTutorial.a */; };
+		94AF58FB24B04E6800F98598 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 94AF58FA24B04E6800F98598 /* test.json */; };
+		94AF590324B0522900F98598 /* cat.json in Resources */ = {isa = PBXBuildFile; fileRef = 94AF590224B0522900F98598 /* cat.json */; };
+		94AF590524B05B3B00F98598 /* heart.json in Resources */ = {isa = PBXBuildFile; fileRef = 94AF590424B05B3B00F98598 /* heart.json */; };
 		94DF7ABD246BF70A00B78D5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DF7ABC246BF70A00B78D5A /* AppDelegate.swift */; };
 		94DF7ABF246BF70A00B78D5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DF7ABE246BF70A00B78D5A /* SceneDelegate.swift */; };
 		94DF7AC1246BF70A00B78D5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DF7AC0246BF70A00B78D5A /* ViewController.swift */; };
@@ -23,6 +26,9 @@
 /* Begin PBXFileReference section */
 		11C6C5C7959E52B62DF4AC20 /* Pods-LottieTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieTutorial.release.xcconfig"; path = "Target Support Files/Pods-LottieTutorial/Pods-LottieTutorial.release.xcconfig"; sourceTree = "<group>"; };
 		2979C95B7D66A25E63E47D06 /* libPods-LottieTutorial.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LottieTutorial.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94AF58FA24B04E6800F98598 /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
+		94AF590224B0522900F98598 /* cat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cat.json; sourceTree = "<group>"; };
+		94AF590424B05B3B00F98598 /* heart.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = heart.json; sourceTree = "<group>"; };
 		94DF7AB9246BF70A00B78D5A /* LottieTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottieTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94DF7ABC246BF70A00B78D5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94DF7ABE246BF70A00B78D5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,8 +137,11 @@
 		94F19B60246CBD3700710A0A /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				94AF590224B0522900F98598 /* cat.json */,
+				94AF58FA24B04E6800F98598 /* test.json */,
 				94F19B61246CBEA600710A0A /* download.json */,
 				94F19B6D246CE29C00710A0A /* coffee.json */,
+				94AF590424B05B3B00F98598 /* heart.json */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -214,7 +223,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94AF590524B05B3B00F98598 /* heart.json in Resources */,
+				94AF590324B0522900F98598 /* cat.json in Resources */,
 				94F19B68246CDEA900710A0A /* DownloadViewController.xib in Resources */,
+				94AF58FB24B04E6800F98598 /* test.json in Resources */,
 				94DF7AC9246BF70C00B78D5A /* LaunchScreen.storyboard in Resources */,
 				94DF7AC6246BF70C00B78D5A /* Assets.xcassets in Resources */,
 				94F19B6E246CE29C00710A0A /* coffee.json in Resources */,
