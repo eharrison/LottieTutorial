@@ -11,7 +11,7 @@ import Lottie
 
 class DownloadViewController: UIViewController {
     
-    @IBOutlet weak var progressView: AnimationView!
+    @IBOutlet weak var progressView: LottieAnimationView!
     @IBOutlet weak var progressStatusLabel: UILabel!
     @IBOutlet weak var downloadButton: UIButton!
     
