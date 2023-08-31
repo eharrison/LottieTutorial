@@ -11,7 +11,7 @@ import Lottie
 
 class ViewController: UIViewController {
 
-    private var animationView: AnimationView?
+    private var animationView: LottieAnimationView?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +25,7 @@ class ViewController: UIViewController {
         animationView!.play()
         
         view.sendSubviewToBack(animationView!)
+        
     }
     
     @IBAction func openDownload(_ sender: Any) {
